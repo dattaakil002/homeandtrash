@@ -1,0 +1,8 @@
+<p>dashboard works!</p>
+<div>
+    <div *ngFor="let home of homeList">
+        <img [src]="home.productImage">
+        <h1>{{home.productTitle}}</h1>
+        <h1>{{home.Description}}</h1>
+    </div>
+</div>
